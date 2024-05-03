@@ -1,0 +1,123 @@
+*{
+margin:0px ;
+}   
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XaDl5MPgdEJnw5HOtiyXG_88dOXS-IV68dT1Y5FkEA&s");
+    background-size: cover;
+}
+.navbar{
+    background-color:black;
+    height: 90px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+}
+.logo{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.logo p{
+    color: white;
+    margin-top:20px;
+    font-family:magneto;
+    text-shadow: 3px 3px 4px white;
+}
+.sign{
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+
+}
+.sign a{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.sign i{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top:2px ;
+}
+.searchbar{
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    align-items: center;
+    justify-content:center;
+    margin-left:625px ;
+    border-radius:25px;
+}
+.search input{
+    height:27px;
+    width:200px;
+    text-align: center;
+    border-radius:25px;
+    box-shadow:0px 0px 10px white;
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(20px);
+    color: white;
+    font-size:15px;
+    font-family:elephant;
+}
+.search i{
+    color: white;
+    margin-left: 2px;
+    font-size: 18px;
+}
+.kurta{
+    text-align: center;
+    margin-top: 10px;
+    width:220px;
+    align-items: center;
+    justify-content: center;
+    margin-left:620px;
+}
+.kurta p{
+    font-size: 15px;
+    font-family: elephant;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+.box{
+    display: flex;
+}
+.box img{
+height:350px;
+width: 200px;
+margin-left: 50px;
+border:2px solid pink;
+margin-top:20px;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+background-color: white;
+box-shadow: 0px 0px 10px pink;
+}
+.kurti{
+    text-align: center;
+    margin-top: 20px;
+    width:220px;
+    align-items: center;
+    justify-content: center;
+    margin-left:630px;
+    margin-bottom: 10px;
+}
+.kurti p{
+    font-size: 15px;
+    font-family: elephant;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}

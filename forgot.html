@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("https://img.freepik.com/premium-vector/aesthetic-mountain-wallpaper-background-image_584397-109.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .main{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+        border: 2px solid pink;
+        height: 200px;
+        width: 350px;
+        border: border-box;
+        margin-left: 580px;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        box-shadow:0px 0px 20px pink;
+    }
+    .number{
+        width: 300px;
+        height: 35px;
+        text-align: center;
+        border-radius: 30px;
+        font-family:elephant;
+        margin-top: 25px;
+
+    }
+    .ab{
+        margin-top: 20px;
+        width: 300px;
+        height: 35px;
+        text-align: center;
+        border-radius: 30px;
+        font-family:elephant;
+    }
+    .register{
+        margin-top: 20px;
+    }
+    .register a{
+        color: black;
+        margin-top: 50px;
+        font-size:20px;
+        font-family:elephant;
+    }
+</style>
+<body>
+    <div class="main">
+    <div class="forgot">
+        <input type="text" placeholder="Enter your number" class="number">
+    </div><div class="otp">
+        <input type="password" placeholder="Enter  OTP" class="ab">
+    </div>
+    <div class="register">
+        <a href="#">Submit</a>
+    </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("submitBtn").addEventListener("click", function(event) {
+                event.preventDefault();
+
+                var phoneNumber = document.querySelector(".number").value;
+                var otp = document.querySelector(".ab").value;
+
+                if (phoneNumber.trim() === "" || otp.trim() === "") {
+                    alert("Please fill in all fields.");
+                    return;
+                }
+
+                // Here you can add further processing, like sending the data to a server
+                console.log("Phone Number:", phoneNumber);
+                console.log("OTP:", otp);
+
+                // Optionally, you can reset the form after submission
+                // document.querySelector("form").reset();
+            });
+        });
+    </script>
+</body>
+</html>
